@@ -1,0 +1,11 @@
+language="python3"
+run = """
+pip install py-cord==2.0.0b4
+pip install requests
+pip install Flask
+pip install Pillow
+python main.py
+"""
+
+[packager]
+ignoredPackages=["discord.py", "discord"]
